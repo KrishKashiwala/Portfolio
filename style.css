@@ -1,0 +1,227 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.color {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.color:hover {
+  color: turquoise;
+}
+
+#home {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 760px;
+}
+
+.box {
+  position: relative;
+  max-width: 600px;
+  padding: 50px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+  background-color: black;
+  color: #000;
+  border-radius: 20px;
+}
+
+#heading {
+  position: relative;
+  margin: 0 0 20px;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.text {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: #d5d8dc;
+  text-align: center;
+  font-size: 20px;
+}
+
+.media {
+  position: absolute;
+  left: 50%;
+  transform: translate(-53%, -50%);
+  padding-top: 40px;
+}
+
+.marginTop {
+  margin-top: 13px;
+}
+
+.mediaIcons {
+  display: inline;
+  font-size: 20px;
+  padding: 20px 10px;
+  color: white;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.mediaIcons:hover {
+  color: turquoise;
+}
+
+.white {
+  color: white;
+}
+.green {
+  color: turquoise;
+}
+#me {
+  width: 100%;
+  background-color: #2b2b2b;
+}
+
+#aboutMe {
+  color: #d5d8dc;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: turquoise;
+}
+
+#aboutMe:hover {
+  color: white;
+}
+
+#resume:hover {
+  background-color: turquoise;
+  border-color: turquoise;
+}
+
+.center {
+  text-align: center;
+}
+
+.styleText {
+  color: #d5d8dc;
+  font-size: 18px;
+}
+
+#skills {
+  width: 100%;
+  background-color: white;
+}
+
+#skillsText {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: turquoise;
+}
+
+#skillsText:hover {
+  color: #2c3e50;
+}
+
+#projects {
+  width: 100%;
+  background-color: #ebeeee;
+}
+
+#androidApk {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+#projectTitle {
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: turquoise;
+}
+
+#crAlloter {
+  background-color: white;
+  margin: 20px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+}
+
+#CRalloterTitle {
+  font-weight: bold;
+}
+
+#CRalloterTitle {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#image {
+  width: 100px;
+  height: 100px;
+  background-image: url(logo.png);
+  background-size: cover;
+  float: right;
+  margin-right: 30px;
+}
+
+#imageOne {
+  width: 100px;
+  height: 100px;
+  background-image: url(icon2.png);
+  background-size: cover;
+  float: right;
+  margin-right: 30px;
+}
+
+#contact {
+  width: 100%;
+  background-color: #0f0f0f;
+}
+
+#contactText {
+  color: #d5d8dc;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.details {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#download:hover {
+  background-color: turquoise;
+}
+
+#navbarIcon {
+  background-image: url(icon.png);
+  background-size: cover;
+}
+
+#email:hover {
+  text-decoration: none;
+  color: turquoise;
+}
+#farm {
+  text-decoration: none;
+
+  color: blue;
+}
